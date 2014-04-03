@@ -70,7 +70,7 @@ border-top: solid 1px #9D9DB2;
 	padding-left: 10px;
 }
 
-.lightbox-container{
+./*lightbox-container{
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -79,7 +79,7 @@ border-top: solid 1px #9D9DB2;
 	height: 100%;
 	display:-webkit-box;
 	-webkit-box-pack:center;
-	-webkit-box-align:center;
+	-webkit-box-align:center;*/
 
 
 }
@@ -90,14 +90,13 @@ border-top: solid 1px #9D9DB2;
 	margin: 0 auto;
 	border:1px solid white;
 	border-radius: 10px;
-	overflow: hidden; /* overflow hidden*/
+	overflow: hidden; /**clear fix to keep button within container **/
 }
 
 .red-button{
 	background-color: #FF4D4D;
 	border: 2px solid #FF4D4D;
 	border-radius: 5px;
-	/*width: 10;*/
 	margin: 20px;
 	color: white;
 	padding: 5px 20px;
@@ -116,5 +115,16 @@ border-top: solid 1px #9D9DB2;
 	padding-left: 20px;
 }
 
-/* helllo there */
+/* 5. Media Block */
+
+.avatar{
+	float: left;
+	padding-right: 10px;
+}
+.avatar-comment
+{
+	overflow: hidden;
+}
+
+
 
